@@ -28,7 +28,7 @@ class Signin : AppCompatActivity() {
         val signinBtn=findViewById<Button>(R.id.signin_btn)
 
         signinBtn.setOnClickListener {
-            val api="https://kindimanu.alwaysdata.net/api/signin"
+            val api="https://kindi.alwaysdata.net/api/signin"
 
             val data= RequestParams()
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/card_bg"
+    android:layout_marginTop="50dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_name"
+        android:text="Product Name"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/prod_name"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/product_photo"
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_description"
+        android:textStyle="italic"
+        android:text="This is a Good Product"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/prod_desc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_cost"
+        android:text="Ksh 5000"
+        android:textStyle="bold"
+        android:textColor="@color/prod_cost"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/purchase"
+        android:text="Buy Now"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/accent"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

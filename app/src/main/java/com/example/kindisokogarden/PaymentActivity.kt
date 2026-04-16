@@ -43,10 +43,10 @@ class PaymentActivity : AppCompatActivity() {
         val imageUrl="https://kindi.alwaysdata.net/static/images/${photo}"
 
         //glide
-        Glide.with(txtPhoto.context)
+        Glide.with(applicationContext)
             .load(imageUrl)
             .placeholder(R.drawable.ic_launcher_background)
-            .into(txtPhoto.)
+            .into(txtPhoto)
 
 
         val edtPhone=findViewById<EditText>(R.id.edt_phone)

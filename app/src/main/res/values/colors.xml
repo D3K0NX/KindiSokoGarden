@@ -10,5 +10,8 @@
     <color name="prod_cost">#333333</color>
     <color name="prod_desc">#666666</color>
 
+    <color name="lipa_na_mpesa">#269D07</color>
+    <color name="hint_color">#1B2D52</color>
+
     <color name="accent">#3B82F6</color>
 </resources>

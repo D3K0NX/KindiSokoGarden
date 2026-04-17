@@ -16,7 +16,7 @@ import java.util.Locale
 
 class AboutActivity : AppCompatActivity() {
     lateinit var tts: TextToSpeech
-    //variable for speach text
+    //variable for speech text
     lateinit var speechText: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class AboutActivity : AppCompatActivity() {
         val speakButton=findViewById<Button>(R.id.speak_btn)
 
 
-        //views for speach to text
+        //views for speech to text
         speechText=findViewById<TextView>(R.id.tv_speech)
         val speechButton=findViewById<Button>(R.id.tap_speak_btn)
 

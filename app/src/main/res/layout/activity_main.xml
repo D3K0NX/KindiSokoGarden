@@ -46,6 +46,18 @@
         android:textSize="23sp"
         android:textStyle="bold" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:text="About Info"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"/>
+
     <ProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

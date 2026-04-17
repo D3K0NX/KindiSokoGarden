@@ -35,6 +35,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val aboutInfo=findViewById<Button>(R.id.about)
+        aboutInfo.setOnClickListener {
+            val intent= Intent(applicationContext, AboutActivity::class.java)
+            startActivity(intent)
+        }
+
         //find the views
         val progressBar=findViewById<ProgressBar>(R.id.progressbar)
         val recyclerView=findViewById<RecyclerView>(R.id.recyclerview)

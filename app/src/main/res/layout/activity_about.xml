@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Soko Garden"
+        android:textSize="30sp"
+        android:textColor="@color/prod_name"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_about"
+        android:text="@string/about_tw"
+        android:textSize="19sp"
+        android:layout_margin="20sp"
+        android:textColor="@color/prod_desc"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speak_btn"
+        android:text="Speak"
+        android:backgroundTint="@color/accent"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"/>
+
+
+
+</LinearLayout>

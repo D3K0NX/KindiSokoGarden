@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">KindiSokoGarden</string>
     <string name="soko_garden">Soko Garden</string>
+    <string name="about_tw">Welcome to our eCommerce app, a simple and user-friendly platform designed to make online shopping easy and accessible for everyone. Users can quickly sign up to create an account, securely sign in, and browse a wide range of products with detailed descriptions and images. Our seamless checkout process allows customers to pay conveniently through M-Pesa</string>
 </resources>
